@@ -24,6 +24,11 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 - Editem o título e a descrição de uma tarefa existente.
 - Excluam tarefas da lista.
 
+## Requisitos
+
+- PHP 8 ou superior
+- SQLite 3
+
 ### Requisitos Funcionais
 
 1. **Adicionar Tarefa**: Permite ao usuário adicionar uma nova tarefa com título e descrição.
@@ -36,11 +41,6 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 1. **Interface Simples**: A interface deve ser simples e fácil de usar.
 2. **Persistência de Dados**: As tarefas são armazenadas em um banco de dados SQLite.
 3. **Código Limpo**: O código deve ser bem organizado e comentado.
-
-## Requisitos
-
-- PHP 8 ou superior
-- SQLite 3
 
 ## Instalação
 
