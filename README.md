@@ -41,7 +41,7 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 ## Requisitos
 
 - PHP 8 ou superior
-- MySQL 8
+- SQLite 3
 
 ## Instalação
 
