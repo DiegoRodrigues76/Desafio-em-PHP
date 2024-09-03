@@ -4,7 +4,7 @@ Uma aplicação web simples para gerenciar uma lista de tarefas. Esta aplicaçã
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="Logo PHP" width="120"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="Logo SQLite" width="120"/>
+  <img src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png" alt="Logo MySQL" width="120"/>
 </p>
 
 ## Índice
@@ -27,7 +27,7 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 ## Requisitos
 
 - PHP 8 ou superior
-- SQLite 3
+- MySQL 8 ou superior
 
 ### Requisitos Funcionais
 
@@ -39,7 +39,7 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 ### Requisitos Não Funcionais
 
 1. **Interface Simples**: A interface deve ser simples e fácil de usar.
-2. **Persistência de Dados**: As tarefas são armazenadas em um banco de dados SQLite.
+2. **Persistência de Dados**: As tarefas são armazenadas em um banco de dados MySQL.
 3. **Código Limpo**: O código deve ser bem organizado e comentado.
 
 ## Instalação
