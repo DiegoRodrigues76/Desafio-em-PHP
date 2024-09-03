@@ -1,4 +1,4 @@
-# Gerenciador de Tarefas (To-Do List) em PHP
+# Gerenciador de Tarefas (To-Do List) 
 
 Uma aplicação web simples para gerenciar uma lista de tarefas. Esta aplicação permite adicionar, visualizar, editar e excluir tarefas usando PHP e um banco de dados SQLite.
 
