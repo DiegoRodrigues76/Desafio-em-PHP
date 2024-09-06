@@ -12,6 +12,8 @@ Uma aplicação web simples para gerenciar uma lista de tarefas. Esta aplicaçã
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Requisitos](#requisitos)
 - [Instalação](#instalação)
+- [Uso](#uso)
+- [Estrutura do Projeto](#estrutura-do-projeto)
 
 ## Sobre o Projeto
 
@@ -29,19 +31,34 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 
 ### Requisitos Funcionais
 
-1. **Adicionar Tarefa**: Permite ao usuário adicionar uma nova tarefa com título e descrição.
-2. **Visualizar Tarefas**: Permite ao usuário visualizar todas as tarefas em uma lista.
-3. **Editar Tarefa**: Permite ao usuário editar o título e a descrição de uma tarefa existente.
-4. **Excluir Tarefa**: Permite ao usuário excluir uma tarefa da lista.
+1. **Adicionar Tarefa:** Permite ao usuário adicionar uma nova tarefa com título e descrição.
+2. **Visualizar Tarefas:** Permite ao usuário visualizar todas as tarefas em uma lista.
+3. **Editar Tarefa:** Permite ao usuário editar o título e a descrição de uma tarefa existente.
+4. **Excluir Tarefa:** Permite ao usuário excluir uma tarefa da lista.
 
 ### Requisitos Não Funcionais
 
-1. **Interface Simples**: A interface deve ser simples e fácil de usar.
-2. **Persistência de Dados**: As tarefas são armazenadas em um banco de dados.
-3. **Código Limpo**: O código deve ser bem organizado e comentado.
+1. **Interface Simples:** A interface deve ser simples e fácil de usar.
+2. **Persistência de Dados:** As tarefas são armazenadas em um banco de dados.
+3. **Código Limpo:** O código deve ser bem organizado e comentado.
 
 ## Instalação
 
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/DiegoRodrigues76/Desafio-em-PHP.git
+
+## Uso
+
+1. **Página Principal (index.php):** Exibe a lista de tarefas. Conecta-se ao banco de dados para buscar todas as tarefas e exibi-las em uma tabela com opções para editar e excluir.
+2. **Adicionar Tarefa (add.php):** Formulário para adicionar uma nova tarefa. Ao submeter o formulário, a nova tarefa é inserida no banco de dados.
+3. **Editar Tarefa (edit.php):** Formulário para editar uma tarefa existente. Ao submeter o formulário, a tarefa é atualizada no banco de dados.
+4. **Excluir Tarefa (delete.php):** Exclui a tarefa do banco de dados com base no ID fornecido.
+
+## Estrutura do Projeto
+
+- **index.php:** Página principal que exibe a lista de tarefas.
+- **add.php:** Página para adicionar uma nova tarefa.
+- **edit.php:** Página para editar uma tarefa existente.
+- **delete.php:** Página para excluir uma tarefa.
+- **db.php:** Arquivo de configuração do banco de dados.
