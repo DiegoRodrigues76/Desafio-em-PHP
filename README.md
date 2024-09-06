@@ -11,6 +11,7 @@ Uma aplicação web simples para gerenciar uma lista de tarefas. Esta aplicaçã
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Requisitos](#requisitos)
+- [Prints da Aplicação](#prints-da-aplicação)
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Estrutura do Projeto](#estrutura-do-projeto)
