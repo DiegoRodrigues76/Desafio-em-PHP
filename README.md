@@ -53,12 +53,14 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 1. **Página Principal (index.php):** Exibe a lista de tarefas. Conecta-se ao banco de dados para buscar todas as tarefas e exibi-las em uma tabela com opções para editar e excluir.
 2. **Adicionar Tarefa (add.php):** Formulário para adicionar uma nova tarefa. Ao submeter o formulário, a nova tarefa é inserida no banco de dados.
 3. **Editar Tarefa (edit.php):** Formulário para editar uma tarefa existente. Ao submeter o formulário, a tarefa é atualizada no banco de dados.
-4. **Excluir Tarefa (delete.php):** Exclui a tarefa do banco de dados com base no ID fornecido.
+4. **Atualizar Tarefa no BD (edit-progress.php):** Atualiza a tarefa no banco de dados ao submeter o formulário.
+5. **Excluir Tarefa (delete.php):** Exclui a tarefa do banco de dados com base no ID fornecido.
 
 ## Estrutura do Projeto
 
 - **index.php:** Página principal que exibe a lista de tarefas.
 - **add.php:** Página para adicionar uma nova tarefa.
 - **edit.php:** Página para editar uma tarefa existente.
+- **edit-progress.php:** Atualiza a tarefa no banco de dados ao submeter o formulário.
 - **delete.php:** Página para excluir uma tarefa.
 - **db.php:** Arquivo de configuração do banco de dados.
