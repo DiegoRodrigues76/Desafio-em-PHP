@@ -1,7 +1,7 @@
 <?php
 
 $hostname = 'localhost';
-$database = 'to_to_list';
+$database = 'to_do_list';
 $username = 'postgres';
 $password = 'root';
 
@@ -14,3 +14,4 @@ try {
 } catch (PDOException $erro) {
     echo "Erro: " . $erro->getMessage();
 }
+?>
