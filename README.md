@@ -42,6 +42,12 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 2. **Persistência de Dados:** As tarefas são armazenadas em um banco de dados.
 3. **Código Limpo:** O código deve ser bem organizado e comentado.
 
+## Prints da Aplicação
+<img src="prints da aplicação/tela 1 - home.png" alt="Tela Principal 1" width="400"/>
+<img src="prints da aplicação/tela 2 - home.png" alt="Tela Principal 2" width="400"/>
+<img src="prints da aplicação/tela do postgres.png" alt="Tela do Banco de Dados" width="400"/>
+
+
 ## Instalação
 
 1. **Clone o repositório:**
