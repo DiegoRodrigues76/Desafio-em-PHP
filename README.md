@@ -46,7 +46,7 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/DiegoRodrigues76/Desafio-em-PHP.git
+   git clone https://github.com/DiegoRodrigues76/gerenciador-de-tarefas.git
 
 ## Uso
 
