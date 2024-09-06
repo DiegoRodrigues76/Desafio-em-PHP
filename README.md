@@ -1,9 +1,10 @@
 # Gerenciador de Tarefas (To-Do List) 
 
-Uma aplicação web simples para gerenciar uma lista de tarefas. Esta aplicação permite adicionar, visualizar, editar e excluir tarefas usando PHP e um banco de dados.
+Uma aplicação web simples para gerenciar uma lista de tarefas. Esta aplicação permite adicionar, visualizar, editar e excluir tarefas usando PHP e o PostgrSQL.
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="Logo PHP" width="120"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="Logo PHP" height="120" width="120"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="Logo PostgreSQL" width="120"/>
 </p>
 
 ## Índice
@@ -11,8 +12,6 @@ Uma aplicação web simples para gerenciar uma lista de tarefas. Esta aplicaçã
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Requisitos](#requisitos)
 - [Instalação](#instalação)
-- [Uso](#uso)
-- [Estrutura do Projeto](#estrutura-do-projeto)
 
 ## Sobre o Projeto
 
@@ -26,6 +25,7 @@ O objetivo deste projeto é criar uma aplicação web básica para gerenciar uma
 ## Requisitos
 
 - PHP 8 ou superior
+- PostgreSQL 16 ou superior
 
 ### Requisitos Funcionais
 
